@@ -7,29 +7,29 @@ our APIs.
 
 To test the application your Spotify account needs to have the developer flag
 set. You can find out how to activate the developer flag [here](https://developer.spotify.com/technologies/apps/#developer-account).
-You then need to create a Spotify workspace directory and place the code in
-a sub folder called boilerplate-app. When this is done you can access your
-local application (restart Spotify desktop client if you have not done so) by
-typing in spotify:app:boilerplate-app in the search field.
-Read more about it in the [Spotify Developer Guidelines](http://developer.spotify.com/technologies/apps/guidelines/developer/).
 
-The manifest.json file describes the application. For this app we have chosen
+Clone this repository in your Spotify workspace directory. If you haven't got a Spotify directory, read about where to create it [here](http://developer.spotify.com/technologies/apps/guidelines/developer/#creatinganapp). Cloning will create a subfolder called boilerplate-app. 
+
+You can access the application (restart the Spotify desktop client if you have not done so) by typing in spotify:app:boilerplate-app in the search field.
+Read more about this in the [Spotify Developer Guidelines](http://developer.spotify.com/technologies/apps/guidelines/developer/).
+
+The **[manifest.json](https://github.com/spotify/boilerplate-app/blob/master/manifest.json)** file describes the application. For this app we have chosen
 to support all languages available.
 
-index.html loads the main.js file, our entrypoint to develop applications.
+**[index.html](https://github.com/spotify/boilerplate-app/blob/master/index.html)** loads the **[scripts/main.js]((https://github.com/spotify/boilerplate-app/blob/master/scripts/main.js)** file, our entry point to develop applications. In turn, main.js loads  four script files, each showcasing a part of the Spotify Apps API.
 
-button-example.js shows how to create some of the buttons our framework
-supports. Find out more about buttons in [Views Framework documentation](https://developer.spotify.com/technologies/apps/docs/preview/views/buttons.html).
+* **[scripts/button-example.js](https://github.com/spotify/boilerplate-app/blob/master/scripts/button-example.js)** shows how to create some of the buttons our framework
+supports. Find out more about buttons in the [Views Framework documentation](https://developer.spotify.com/technologies/apps/docs/preview/views/buttons.html).
 
-cover-example.js shows how to create a playable cover image for an album.
-Find out more about images in [Views Framework documentation](https://developer.spotify.com/technologies/apps/docs/preview/views/image-image.html).
+* **[scripts/cover-example.js](https://github.com/spotify/boilerplate-app/blob/master/scripts/cover-example.js)** shows how to create a playable cover image for an album.
+Find out more about images in the [Views Framework documentation](https://developer.spotify.com/technologies/apps/docs/preview/views/image-image.html).
 
-language-example.js shows how to use our built-in i18n support.
+* **[scripts/language-example.js](https://github.com/spotify/boilerplate-app/blob/master/scripts/language-example.js)** shows how to use our built-in i18n support.
 Find out more about localization in our [Spotify Developer Guidelines](http://developer.spotify.com/technologies/apps/guidelines/developer/#localization) or in our
 [API Framework documentation](http://developer.spotify.com/technologies/apps/docs/preview/api/api-core-spotifyapi-langmodule.html).
 
-playlist-example.js shows how to create a playlist for an album.
-Find out more about playlists in [Views Framework documentation](https://developer.spotify.com/technologies/apps/docs/preview/views/list.html).
+* **[scripts/playlist-example.js](https://github.com/spotify/boilerplate-app/blob/master/scripts/playlist-example.js)** shows how to create a playlist for an album.
+Find out more about playlists in the [Views Framework documentation](https://developer.spotify.com/technologies/apps/docs/preview/views/list.html).
 
 Helpful links:
 
