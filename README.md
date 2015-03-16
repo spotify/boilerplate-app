@@ -1,45 +1,12 @@
-| Closure of Spotify Apps Submissions   |
-| ------------------------------------- |
-| Spotify closed the submission process for new apps on the 24th of March 2014. You can still develop apps, but your app will not be released through the App Finder and will thus not be accessible to other users. Please read the [announcement](http://devnews.spotify.com/2014/03/24/closure-of-spotify-apps-submissions/) on our Developer News site for more information. |
-
 boilerplate-app
 ===============
 
-This is a boilerplate app that contains the minimum required code to create
-a Spotify app. It also contains a few simple examples of how to use some of
-our APIs.
+This repository has been cleared and left intentionally empty.
 
-## Running the application
-To run the application your Spotify account needs to have the developer flag
-set. You can find out how to activate the developer flag [here](https://developer.spotify.com/technologies/apps/#developer-account).
+Spotify closed the submission process for new apps on the 24th of March 2014. Future releases of the Spotify Desktop client will no longer feature an App Finder tab and will no longer support the presentation of Spotify Apps, therefore this API has been discontinued.
 
-Clone this repository in your Spotify workspace directory. If you haven't got a Spotify directory, read about where to create it [here](http://developer.spotify.com/technologies/apps/guidelines/developer/#creatinganapp). Cloning will create a subfolder called boilerplate-app. 
+With the growing importance of mobile devices and with many developers asking for the tools to build apps outside of our desktop platform, we recognized the need to make a new set of APIs and SDKs available. These would ensure the Spotify platform remained relevant and easy to develop on, as well as enabling you to build innovative and engaging music experiences.
 
-You can access the application (restart the Spotify desktop client if you have not done so) by typing in `spotify:app:boilerplate-app` in the search field.
-Read more about this in the [Spotify Developer Guidelines](http://developer.spotify.com/technologies/apps/guidelines/developer/).
+As a result, we launched our [Web API](https://developer.spotify.com/web-api/) and mobile SDKs for [iOS](https://developer.spotify.com/technologies/spotify-ios-sdk/) and [Android](https://developer.spotify.com/technologies/spotify-android-sdk/).
 
-## Contents
-
-The **[manifest.json](https://github.com/spotify/boilerplate-app/blob/master/manifest.json)** file describes the application. For this app we have chosen
-to support all languages available.
-
-**[index.html](https://github.com/spotify/boilerplate-app/blob/master/index.html)** loads the **[scripts/main.js]((https://github.com/spotify/boilerplate-app/blob/master/scripts/main.js)** file, our entry point to develop applications. In turn, main.js loads  four script files, each showcasing a part of the Spotify Apps API.
-
-* **[scripts/button-example.js](https://github.com/spotify/boilerplate-app/blob/master/scripts/button-example.js)** shows how to create some of the buttons our framework
-supports. Find out more about buttons in the [Views Framework documentation](https://developer.spotify.com/technologies/apps/docs/preview/views/buttons.html).
-
-* **[scripts/cover-example.js](https://github.com/spotify/boilerplate-app/blob/master/scripts/cover-example.js)** shows how to create a playable cover image for an album.
-Find out more about images in the [Views Framework documentation](https://developer.spotify.com/technologies/apps/docs/preview/views/image-image.html).
-
-* **[scripts/language-example.js](https://github.com/spotify/boilerplate-app/blob/master/scripts/language-example.js)** shows how to use our built-in i18n support.
-Find out more about localization in our [Spotify Developer Guidelines](http://developer.spotify.com/technologies/apps/guidelines/developer/#localization) or in our
-[API Framework documentation](http://developer.spotify.com/technologies/apps/docs/preview/api/api-core-spotifyapi-langmodule.html).
-
-* **[scripts/playlist-example.js](https://github.com/spotify/boilerplate-app/blob/master/scripts/playlist-example.js)** shows how to create a playlist for an album.
-Find out more about playlists in the [Views Framework documentation](https://developer.spotify.com/technologies/apps/docs/preview/views/list.html).
-
-## Helpful links
-
--  [Spotify Developer site](https://developer.spotify.com/)
--  [Spotify Developer Guidelines](http://developer.spotify.com/technologies/apps/guidelines/developer/)
--  [Spotify Apps API](https://developer.spotify.com/technologies/apps/)
+Please read the [announcement](https://developer.spotify.com/news-stories/2014/03/24/closure-of-spotify-apps-submissions/) on our Developer News site for more information.
